@@ -155,8 +155,6 @@ for ele1 in inbound_files1:
         print(ele1)
 
 
-
-
 # ************************************************************** New Path ********************************************
 
 print('Files Downloaded from 1st Path')
