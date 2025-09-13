@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 print(" ** Welcome here to Push Ceragon Report on BI Portal ** ")
 
 
@@ -38,8 +35,6 @@ mnt1=((datetime.now() - timedelta(1)).strftime("%Y%m%d"))
 mnt1=((datetime.now() - timedelta(days =datetime.now().day)).strftime("%m-%y"))
 
 
-######################
-
 
 print('Raw files Loading....')
 
@@ -70,8 +65,10 @@ dt2=(datetime.now() - timedelta(2)).strftime('%d-%b-%y')
 dt1=(datetime.now() - timedelta(1)).strftime('%d-%b-%y')
 
 
+print('Here I add one more Deletion code- to remove all files from Directory and their subdirectory')
 
-path = r'C:\Users\COR1736664\Desktop\Deepak\ALL CODE\All_Report_BI_Push\Ceragon\RAW'
+
+path = r'Local_path'
 
 for folder, subfolders,files in os.walk(path):
     for fl in files:
